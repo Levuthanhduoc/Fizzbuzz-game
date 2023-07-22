@@ -1,0 +1,25 @@
+#fizzbox {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 200px;
+    width: 200px;
+    border: black 1px solid;
+    padding: 30px;
+    overflow-anchor: none;
+}
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexbox-button{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.rule {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}

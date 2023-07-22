@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FIZZBUZZ GAME</title>
+    <source>
+</head>
+<body>
+    <div class="flexbox">
+        <p>Let play Fizz buzz </p>
+        <div id="fizzbox">
+            <div id="answer-show-here">Begin!!</div>
+        </div>
+        <div class="flexbox-button">
+            <button type="button" id ="fizz" onclick="game('fizz')">fizz</button>
+            <button type="button" id ="buzz" onclick="game('buzz')">buzz</button>
+            <button type="button" id ="fizzbuzz" onclick="game('fizzbuzz')">fizzbuzz</button>
+            <button type="button" id ="answer-button" onclick="game(start_num)">none</button>
+            <button type="button" id ="clear" onclick="unadd()">Clear</button>
+            <button type="button" id ="restart" onclick="restart()">Restart</button>
+            <script src="answer.js"></script>
+        </div>
+        <p class="rule">Rule: Players take turns to count incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz", and any number divisible by both 3 and 5 with the word "fizzbuzz". </p>
+    </div>
+</body>
+</html>
